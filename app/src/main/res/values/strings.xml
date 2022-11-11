@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TooManyInterfaces</string>
+    <string name="layout1">Interfaz 1</string>
+    <string name="layout2">Interfaz 2</string>
+    <string name="layout3">Interfaz 3</string>
+    <string name="layout4">Interfaz 4</string>
+    <string name="layout5">Interfaz 5</string>
+    <string name="layout6">Interfaz 6</string>
+    <string name="tittle">Elige una interfaz</string>
+    <string name="nameText">Nombre</string>
+    <string name="editProfileText">Editar Perfil</string>
+    <string name="followersText">Followers</string>
+    <string name="followingText">Following</string>
+    <string name="starText">Estrellita</string>
+    <string name="contentText">Asunto</string>
+    <string name="descriptionText">Contenido</string>
+    <string name="dateText">Fecha</string>
+</resources>
