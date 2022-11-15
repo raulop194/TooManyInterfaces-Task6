@@ -6,4 +6,110 @@
     android:layout_height="match_parent"
     tools:context=".Layout3">
 
+    <TableLayout
+        android:layout_width="397dp"
+        android:layout_height="704dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center_horizontal|center_vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="171dp"
+                    android:gravity="center">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@color/teal_200"
+                        android:padding="8dp"
+                        app:cardBackgroundColor="@color/teal_200"
+                        app:cardCornerRadius="100dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/nameText"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="372dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/editProfileText"
+                android:textColor="@color/black"
+                android:theme="@style/Button.White" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/followersText" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/followingText" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/starText" />
+                </TableRow>
+
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
